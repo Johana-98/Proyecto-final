@@ -7,3 +7,4 @@
 
 ![image](https://user-images.githubusercontent.com/90170635/141481199-a322741a-b1c9-4466-9eca-c6437b70f769.png)
 
+[Trabajo_Integrador.docx](https://github.com/Johana-98/Proyecto-pizzeria/files/7528187/Trabajo_Integrador.docx)
