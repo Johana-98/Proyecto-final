@@ -1,4 +1,3 @@
-
 /********************** ESTILOS BASICOS ***********************/
 
 body {
@@ -31,7 +30,7 @@ strong {
   margin: 0 auto;
   text-align: center;   
   margin-bottom: 100px;
-  border: 2px #c7c8c4 solid; 
+  border: 1px #c7c8c4 solid; 
 }
    
 #menu > div {
@@ -43,8 +42,7 @@ strong {
 	margin: 10px;
 	line-height: 5px;
 	font-size: 30px;
-    	margin-left: 8%;
-	margin-right: 8%;	
+    		
 	text-decoration: none;	
 }
 
@@ -90,6 +88,16 @@ strong {
 .imagenCard { 
 	border: 5px #A6341B solid;
 	border-radius: 8px;
+}
+
+.btn {
+	font-size: 80%;
+	text-align: center;
+	width: 100px;	
+	padding:10px;
+	background-color:  #A6341B;
+	color: white;
+	border-radius: 5px;	
 }
 
 /********************** ESTILOS CONTACT ***********************/
@@ -182,4 +190,3 @@ footer {
 #listContainer > a:hover {
 	color: #F9C743;
 }
-
