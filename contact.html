@@ -15,7 +15,7 @@
 <body>
 	<header>
 		<div class="banner">
-			<img src="./img/bannerProyectoPizzeria01.jpg"
+			<img src="./imgs/clase05ProyectoImagenes/bannerProyectoPizzeria01.jpg"
 				alt="imagen banner pizzerias" width="100%">
 		</div>
 		<div id="menu">
@@ -34,10 +34,15 @@
 					<p>Contacto</p>
 				</a>
 			</div>
+			<div class="menuItems">
+				<a href="./receta.html">
+					<p>Receta</p>
+				</a>
+			</div>
 		</div>
 	</header>
 
-	<div id="contenedorFormulario">
+	<main id="contenedorFormulario">
 
 		<form id="formulario">
 			<label for="name">Nombre:</label> <br>
@@ -49,12 +54,12 @@
 			<label for="mensaje">Mensaje:</label><br>
 			<textarea id="" cols="30" rows="10" placeholder="Escriba su mensaje aqui"></textarea><br><br>
 			<div id="submitContainer">
-				<input type="submit" value="Enviar" id="botonSubmit">
+				<input type="submit" value="Enviar" id="botonSubmit" onclick="alert('Hemos recibido tu consulta! Gracias!')">
 			</div>
 			
 		</form>
 
-	</div>
+	</main>
 
 	<footer>
 		<div id="container-footer">
@@ -81,6 +86,8 @@
 			</p>
 		</div>
 	</footer>
+
+	<script src="./app.js"></script>
 	
 </body>
 
